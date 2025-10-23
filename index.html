@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookCounsellor</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img class="logo" src="/img/ChatGPT Image Oct 11, 2025, 08_56_50 PM.png" alt="logo">
+        <h1 class="heading font-english">BookCounsellor</h1>
+    </header>
+    <main>
+        <h2>あなたの気分に合う本をお探しします．</h2>
+        <div class = "searchsection">
+            <form action="app.js" method="post">
+                <div class = "keyword_search">
+                    <label>検索<input type="text" id = "keyword" placeholder="キーワードを入力"></label>
+                </div>
+                <h3>今の気分は？</h3>
+                <div class="mood-options">
+                    <label><input type="radio" name="mood" value="孤独" onclick= "radioDeselection(this,'孤独')">孤独</label>
+                    <label><input type="radio" name="mood" value="情熱的"onclick= "radioDeselection(this,'情熱的')">情熱的</label>
+                    <label><input type="radio" name="mood" value="穏やか" onclick= "radioDeselection(this,'穏やか')">穏やか</label>
+                    <label><input type="radio" name="mood" value="思索的" onclick= "radioDeselection(this,'思索的')">思索的</label>
+                    <label><input type="radio" name="mood" value="悲しみ" onclick= "radioDeselection(this,'悲しみ')">悲しみ</label>
+                </div>
+                <div class="submit-btn">
+                    <input type="submit" value="検索する">
+                </div>
+            </form>
+        </div>
+            <div id="results" class="hidden">
+               
+            </div>
+        
+    
+        
+        
+    </main>
+    <footer>
+        <div class="copyright">
+            <small>&copy; 2025 BookCounsellor</small>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

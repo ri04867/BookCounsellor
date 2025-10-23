@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* ------ */
+html {
+    font-size: 100%;
+}
+body{
+     font-family: "Kiwi Maru", serif;
+     font-weight: 400;
+     color: #BCBCBC;
+     font-style: normal;
+     line-height: 1.7;
+     background-color: #272829;
+}
+
+img{
+    max-width: 100%;
+}
+.font-english {
+  font-family: "Kiwi Maru", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* ---- */
+.header .logo {
+    width: 60px;
+    height: 60px;
+    margin-right:5px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.header .heading {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    
+}
+.header {
+    margin:70px 0px 30px 0px ;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+}
+/* ---- */
+
+main {
+    text-align: center;
+}
+.searchsection{
+    margin-bottom:2rem;
+}
+
+.keyword_search label{
+    display: flex;
+    justify-content: center;
+    gap: 0.3rem;
+
+
+}
+.mood-options {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+
+}
+
+.mood-options label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 6rem;
+}
+.submit-btn input {
+    border-radius: 5%;
+    background-color: #BCBCBC;
+    border:2px solid #BCBCBC;
+    font-family: "Kiwi Maru", serif;
+    font-weight: 400;
+    font-size:20px ;
+    color: #272829;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: .4s;
+}
+.submit-btn input:hover {
+    color: #BCBCBC;
+    background-color:#272829 ;
+
+}
+/* ---- */
+#results {
+    padding: 40px 0;
+    /* height: 12rem; */
+    color:#262626 ;
+    background-color:#BCBCBC;
+    border-top: medium solid #454749;
+    border-bottom: medium solid #454749 ;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.container .book-img {
+    height: 170px;
+    width: 120px;
+}
+.container ul {
+    margin-top: 0rem;
+    list-style: none;
+    padding: 0;
+    
+}
+.container ul li {
+    padding-bottom: 10px;
+    width:400px ;
+}
+
+/* .container ul li:nth-child(2){
+    padding-left:16px;
+} */
+
+
+
+
+
+footer {
+    margin-top: 1rem;
+}
+footer .copyright {
+    text-align: center;
+    /* margin-top: 12rem ; */
+
+}
