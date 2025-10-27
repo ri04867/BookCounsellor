@@ -28,4 +28,4 @@
 ---
 
 ## 🚀 デモページ
-URL：https://shironagi-dev.github.io/BookCounsellor/
+URL：https://shirohae-dev.github.io/BookCounsellor/
